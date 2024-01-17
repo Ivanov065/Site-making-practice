@@ -1,0 +1,91 @@
+:root {
+    --Dark-primary: rgba(42, 37, 75, 1);
+    --Primary: rgba(78, 77, 147, 1);
+    --Light-gray: rgba(249, 249, 249, 1);
+    --Border-gray: rgba(235, 232, 244, 1);
+    --White: rgba(255, 255, 255, 1);
+    --Border-dark: rgba(202, 198, 218, 1);
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url(../fonts/ClashDisplay-Variable.ttf);
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url(../fonts/Satoshi-Variable.ttf);
+}
+
+.is-Dark-primary {
+    background-color: var(--Dark-primary);
+}
+
+.is-Primary {
+    background-color: var(--Primary);
+}
+
+.is-Light-gray {
+    background-color: var(--Light-gray);
+}
+
+.is-White {
+    background-color: var(--White);
+}
+
+.is-Text-dark-primary {
+    color: var(--Dark-primary);
+}
+
+.is-Text-primary {
+    color: var(--Primary);
+}
+
+.is-Text-light-gray {
+    color: var(--Light-gray);
+}
+
+.is-Text-white {
+    color: var(--White);
+}
+
+.Headline-1, .Headline-2, .Headline-3, .Headline-4, .Headline-5, .Headline-6,
+.Text-body-small, .Text-body-medium, .Text-body-large {
+    line-height: 150%;
+}
+
+.Headline-1, .Headline-2, .Headline-3, .Headline-4, .Headline-5, .Headline-6 {
+    font-family: 'Clash Display';
+}
+
+.Text-body-small, .Text-body-medium, .Text-body-large {
+    font-family: 'Satoshi';
+}
+
+.Headline-1 {
+    font-size: 36pt;
+}
+
+.Headline-2 {
+    font-size: 32pt;
+}
+
+.Headline-3 {
+    font-size: 24pt;
+}
+
+.Headline-4 {
+    font-size: 20pt;
+}
+
+.Headline-5, .Text-body-medium {
+    font-size: 16pt;
+}
+
+.Headline-6, .Text-body-small {
+    font-size: 14pt;
+}
+
+.Text-body-large {
+    font-size: 18pt;
+}

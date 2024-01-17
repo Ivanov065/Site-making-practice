@@ -1,0 +1,88 @@
+.divider {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.collection-button {
+    height: 12%;
+    background: rgba(249, 249, 249, 0.15);
+    min-width: 170px;
+    min-height: 56px;
+}
+
+.collection-button-2 {
+    height: 12%;
+    background: rgba(249, 249, 249, 0.15);
+    min-width: 170px;
+    min-height: 56px;
+}
+
+@media screen and (max-width: 767px) {
+    .Feature-block {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .Feature-block {
+        width: 46%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .Feature-block {
+        width: 22%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Hero-blocks {
+        margin: 0 !important;
+        margin-top: 96px !important;
+    }
+
+    .collection-button {
+        width: 100%;
+        margin-top: 5% !important;
+    }
+
+    .Hero-blocks-content {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .Hero-blocks {
+        margin-top: 180px !important;
+    }
+
+    .collection-button {
+        width: 25%;
+        min-width: 170px;
+        min-height: 56px;
+
+        margin-bottom: auto !important;
+    }
+
+    .Hero-blocks-content {
+        width: 62%;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .Hero-blocks-content {
+        width: 100%;
+    }
+
+    .collection-button {
+        width: 25%;
+        margin-bottom: 5% !important;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Hero-blocks-image {
+        display: none;
+    }
+}
