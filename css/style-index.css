@@ -2,18 +2,62 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.collection-button {
-    height: 12%;
-    background: rgba(249, 249, 249, 0.15);
+.collection-button, .collection-button-2, .get-touch-button {
     min-width: 170px;
     min-height: 56px;
+    height: 12%;
 }
 
-.collection-button-2 {
-    height: 12%;
+.collection-button {
     background: rgba(249, 249, 249, 0.15);
-    min-width: 170px;
-    min-height: 56px;
+}
+
+.Product-card, .Product-card-big {
+    text-decoration: none;
+    margin-bottom: 3% !important;
+}
+
+.Product-card {
+    width: 22%;
+}
+
+.Product-card-big {
+    width: 49%;
+}
+
+.Product-card:has(.Product-card-child:hover), .Product-card-big:has(.Product-card-child:hover)
+{
+    transition: 0.15s;
+    transform: scale(1.05);
+}
+
+.Text-content {
+    width: 100%;
+}
+
+.Text-input {
+    border: none;
+    width: 100%;
+    height: 46px;
+}
+
+input[type=text]::placeholder {
+    color: var(--Dark-primary);
+    opacity: 20%;
+}
+
+.Features-image {
+    overflow: hidden;
+    max-height: 603px;
+}
+
+.Features-image img {
+    position: relative;
+}
+
+.Footer-delimeter {
+    width: 100%;
+    border: 1px solid var(--Primary);
 }
 
 @media screen and (max-width: 767px) {
@@ -32,6 +76,9 @@
     .Feature-block {
         width: 22%;
     }
+    .Features-image img {
+        top: -200px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -40,13 +87,34 @@
         margin-top: 96px !important;
     }
 
+    .Feature-blocks {
+        margin: 0 !important;
+    }
+
     .collection-button {
-        width: 100%;
         margin-top: 5% !important;
     }
 
     .Hero-blocks-content {
         width: 100%;
+    }
+
+    .Product-card {
+        width: 48%;
+    }
+
+    .Product-card-big {
+        width: 80%;
+    }
+
+    .Features-image {
+        display: flex;
+        flex-direction: column-reverse;
+        overflow-y: hidden;
+    }
+
+    .Features-image img {
+        bottom: -100px;
     }
 }
 
@@ -55,11 +123,12 @@
         margin-top: 180px !important;
     }
 
-    .collection-button {
-        width: 25%;
-        min-width: 170px;
-        min-height: 56px;
+    .collection-button, .get-touch-button {
+        max-width: 170px;
+        max-height: 56px;   
+    }
 
+    .collection-button {
         margin-bottom: auto !important;
     }
 
@@ -67,6 +136,13 @@
         width: 62%;
     }
 
+    .Text-input {
+        width: 472px;
+    }
+
+    .Text-content {
+        width: 60%;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -86,3 +162,5 @@
         display: none;
     }
 }
+
+
