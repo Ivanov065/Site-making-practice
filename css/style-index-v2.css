@@ -1,0 +1,45 @@
+.Email-sign-up {
+    background-image: url(../images/pictures/Orange-brown-back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.Text-input-v2 {
+    max-width: 442px !important;
+}
+
+.hero-blocks-v2 {
+    margin-top: 153px !important;
+}
+
+@media screen and (min-width: 992px) {
+    .Text-content-v2, .Text-input-v2 {
+        width: 44% !important;
+    }
+
+    .hero-blocks-v2-content {
+        width: 630px !important;
+        height: 440px !important;
+    }
+
+    .Features-content-v2, .Features-image-v2 {
+        width: 50% !important;
+        height: 100% !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .hero-blocks-v2-content {
+        width: 630px !important;
+        height: 440px !important;
+    }
+
+    .hero-blocks-v2 {
+        background-image: url(../images/pictures/Furniture-back.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}

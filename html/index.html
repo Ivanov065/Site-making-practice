@@ -9,18 +9,19 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style-guide.css">
   <link rel="stylesheet" href="../css/style-index.css">
+  <link rel="stylesheet" href="../css/style-navbar-footer-version-1.css">
 </head>
 
 <body>
   <nav class="fixed-top p-4 d-flex flex-column is-White">
-    <div class="d-flex flex-wrap upper-navbar justify-content-lg-between">
-      <a class="search-icon d-flex align-items-center order-1 order-lg-0" href="#">
+    <div class="d-flex flex-wrap justify-content-lg-between">
+      <a class="d-flex align-items-center order-1 order-lg-0" href="#">
         <img src="../images/icons/Search.svg" width="16" height="16">
       </a>
-      <div class="Headline-3 order-0 flex-grow-1 flex-lg-grow-0 order-lg-1">
+      <a class="Headline-3 order-0 flex-grow-1 flex-lg-grow-0 order-lg-1 is-Main-title" href="#">
         Avion
-      </div>
-      <div class="d-none d-lg-flex gap-2 user-cart-icons order-3">
+      </a>
+      <div class="d-none d-lg-flex gap-2 order-3">
         <a class="navbar-item " href="#">
           <img src="../images/icons/Shopping--cart.svg" width="16" height="16">
         </a>
@@ -39,25 +40,25 @@
       <div class="collapse navbar-collapse d-lg-none order-5" id="navbarTogglerDemo01">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Plant pots</a>
+            <a class="nav-link is-Navbar-text" href="#">Plant pots</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Ceramics</a>
+            <a class="nav-link is-Navbar-text" href="#">Ceramics</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-disabled="true">Tables</a>
+            <a class="nav-link is-Navbar-text" href="#">Tables</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Chairs</a>
+            <a class="nav-link is-Navbar-text" href="#">Chairs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Crockery</a>
+            <a class="nav-link is-Navbar-text" href="#">Crockery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-disabled="true">Tableware</a>
+            <a class="nav-link is-Navbar-text" href="#">Tableware</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-disabled="true">Cultery</a>
+            <a class="nav-link is-Navbar-text" href="#">Cultery</a>
           </li>
           <li class="nav-item">
             <a class="navbar-item " href="#">
@@ -72,16 +73,17 @@
         </ul>
       </div>
     </div>
-    <div class="d-none d-lg-flex divider w-100 my-3"></div>
-    <div class="d-none d-lg-flex justify-content-center navbar-options-wide  ">
+
+    <div class="d-none d-lg-flex divider w-100 my-3" style="border: 1px solid rgba(0, 0, 0, 0.1);"></div>
+    <div class="d-none d-lg-flex justify-content-center">
       <div class="row gap-3">
-        <div class="col" style="white-space: nowrap">Plant pots</div>
-        <div class="col">Ceramics</div>
-        <div class="col">Tables</div>
-        <div class="col">Chairs</div>
-        <div class="col">Crockery</div>
-        <div class="col">Tableware</div>
-        <div class="col">Cultery</div>
+        <a class="col nav-link is-Navbar-text" style="white-space: nowrap" href="#">Plant pots</a>
+        <a class="col nav-link is-Navbar-text" href="#">Ceramics</a>
+        <a class="col nav-link is-Navbar-text" href="#">Tables</a>
+        <a class="col nav-link is-Navbar-text" href="#">Chairs</a>
+        <a class="col nav-link is-Navbar-text" href="#">Crockery</a>
+        <a class="col nav-link is-Navbar-text" href="#">Tableware</a>
+        <a class="col nav-link is-Navbar-text" href="#">Cultery</a>
       </div>
     </div>
   </nav>
@@ -274,13 +276,12 @@
     is-Text-dark-primary align-self-center" href="#" role="button">View collection</a>
   </div>
 
-
   <div class="m-5 p-4 text-center d-flex flex-column is-Light-gray gap-5 align-items-center">
-    <div class="d-flex flex-column align-items-center Text-content">
-      <div class="Headline-1">
+    <div class="w-100 d-flex flex-column align-items-center Text-content">
+      <div class="Headline-1 is-Text-dark-primary">
         Join the club and get the benefits
       </div>
-      <div class="Text-body-medium">
+      <div class="Text-body-medium is-Text-dark-primary">
         Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more
       </div>
     </div>
@@ -292,7 +293,7 @@
     </div>
   </div>
 
-  <div class="m-5 text-start d-flex flex-column flex-lg-row Feature-blocks is-White">
+  <div class="m-5 mb-0 text-start d-flex flex-column flex-lg-row Feature-blocks is-White">
     <div class="p-5 d-flex flex-column text-start w-100 Features-content ">
       <div class="Headline-3 is-Text-dark-primary">
         From a studio in London to a global brand with
@@ -312,16 +313,89 @@
     </div>
   </div>
 
-  <footer class="p-5 d-flex flex-column">
-    <div class="Upper-footer">
-
+  <footer class="p-5 d-flex flex-column is-Dark-primary">
+    <div class="d-flex justify-content-between flex-wrap flex-lg-nowrap">
+      <div class="d-flex flex-column Footer-column">
+        <div class="Headline-5 is-Text-white">
+          Menu
+        </div>
+        <a class="Text-body-small is-Text-white" href="#">
+          New arrivals
+        </a>
+        <a class="Text-body-small is-Text-white" href="#">
+          Best sellers
+        </a>
+        <a class="Text-body-small is-Text-white" href="#">
+          Recently viewed
+        </a>
+        <a class="Text-body-small is-Text-white" href="#">
+          Popular this week
+        </a>
+        <a class="Text-body-small is-Text-white" href="#">
+          All products
+        </a>
+      </div>
+      <div class="d-flex flex-column Footer-column">
+        <div class="Headline-5 is-Text-white">
+          Categories
+        </div>
+        <a class="Text-body-small is-Text-white" href="#">
+          Crockery
+        </a>
+        <a class="Text-body-small is-Text-white" href="#">
+          Furniture
+        </a>
+        <a class="Text-body-small is-Text-white" href="#">
+          Homeware
+        </a>
+        <a class="Text-body-small is-Text-white" href="#">
+          Plant pots
+        </a>
+        <a class="Text-body-small is-Text-white" href="#">
+          Chairs
+        </a>
+        <a class="Text-body-small is-Text-white" href="#">
+          Crockery
+        </a>
+      </div>
+      <div class="d-flex flex-column Footer-column">
+        <div class="Headline-5 is-Text-white">
+          Our company
+        </div>
+        <a class="Text-body-small is-Text-white" href="#">
+          About us
+        </a>
+        <a class="Text-body-small is-Text-white" href="#">
+          Vacancies
+        </a>
+        <a class="Text-body-small is-Text-white" href="#">
+          Contact us
+        </a>
+        <a class="Text-body-small is-Text-white" href="#">
+          Privacy
+        </a>
+        <a class="Text-body-small is-Text-white" href="#">
+          Returns policy
+        </a>
+      </div>
+      <div class="Footer-input">
+        <div class="Headline-5 is-Text-white mb-2">
+          Join our mailing list
+        </div>
+        <div class="input-group mb-3 Footer-text-input">
+          <input type="text" class="form-control Footer-input-field" placeholder="your@email.com" aria-label="your@email.com"
+            aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary is-White is-Text-dark-primary" type="button" id="button-addon2"
+            style="border-radius:0% !important;">Sign up</button>
+        </div>
+      </div>
     </div>
-    <div class="Footer-delimeter"></div>
-    <div class="Lower-footer d-flex justify-content-between w-100">
-      <div class="Copyright">
+    <div class="Footer-delimeter my-4"></div>
+    <div class="d-flex justify-content-center justify-content-md-between w-100">
+      <div class="Text-body-small is-Text-white">
         Copyright 2022 Avion LTD
       </div>
-      <div class="d-flex gap-2 Social-links">
+      <div class="d-none d-md-flex gap-4">
         <a class="" href="#">
           <img src="../images/icons/Logo--linkedin.svg" width="24" height="24">
         </a>

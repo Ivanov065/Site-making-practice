@@ -1,0 +1,35 @@
+
+
+.Footer-text-input {
+    border: none;
+    width: 100%;
+    height: 46px;
+}
+
+input[type=text].Footer-input-field::placeholder {
+    color: var(--White);
+    opacity: 100%;
+}
+
+.Footer-input-field {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius:0% !important;
+    border: rgba(255, 255, 255, 0.15);
+}
+
+.Footer-delimeter {
+    width: 100%;
+    border: 1px solid var(--Primary);
+}
+
+@media screen and (max-width: 991px) {
+    .Footer-input {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .Footer-text-input {
+        width: 472px;
+    }
+}

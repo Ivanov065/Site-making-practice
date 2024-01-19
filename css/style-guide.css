@@ -5,6 +5,9 @@
     --Border-gray: rgba(235, 232, 244, 1);
     --White: rgba(255, 255, 255, 1);
     --Border-dark: rgba(202, 198, 218, 1);
+
+    --Avion-title: rgba(34, 32, 46, 1);
+    --Navbar-text: rgba(114, 110, 141, 1);
 }
 
 @font-face {
@@ -47,6 +50,16 @@
 
 .is-Text-white {
     color: var(--White);
+}
+
+.is-Main-title {
+    color: var(--Avion-title);
+    text-decoration: none;
+}
+
+.is-Navbar-text {
+    color: var(--Navbar-text);
+    text-decoration: none;
 }
 
 .Headline-1, .Headline-2, .Headline-3, .Headline-4, .Headline-5, .Headline-6,
