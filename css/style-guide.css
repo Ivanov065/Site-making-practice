@@ -8,6 +8,8 @@
 
     --Avion-title: rgba(34, 32, 46, 1);
     --Navbar-text: rgba(114, 110, 141, 1);
+    --Near-black: rgba(18, 19, 26, 1)
+    --Light-primary: rgba(80, 89, 119, 1)
 }
 
 @font-face {
@@ -52,6 +54,18 @@
     color: var(--White);
 }
 
+.is-Text-near-black {
+    color: var(--Near-black);
+}
+
+.is-Text-light-primary {
+    color: var(--Light-primary);
+}
+
+.is-Text-border-dark {
+    color: var(--Border-dark);
+}
+
 .is-Main-title {
     color: var(--Avion-title);
     text-decoration: none;
@@ -71,34 +85,34 @@
     font-family: 'Clash Display';
 }
 
-.Text-body-small, .Text-body-medium, .Text-body-large {
+.Text-body-small, .Text-body-medium, .Text-body-large, .Text-body-Xlarge {
     font-family: 'Satoshi';
 }
 
 .Headline-1 {
-    font-size: 36pt;
+    font-size: 36px;
 }
 
 .Headline-2 {
-    font-size: 32pt;
+    font-size: 32px;
 }
 
-.Headline-3 {
-    font-size: 24pt;
+.Headline-3, .Text-body-Xlarge {
+    font-size: 24px;
 }
 
 .Headline-4 {
-    font-size: 20pt;
+    font-size: 20px;
 }
 
 .Headline-5, .Text-body-medium {
-    font-size: 16pt;
+    font-size: 16px;
 }
 
 .Headline-6, .Text-body-small {
-    font-size: 14pt;
+    font-size: 14px;
 }
 
 .Text-body-large {
-    font-size: 18pt;
+    font-size: 18px;
 }

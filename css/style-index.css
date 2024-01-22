@@ -55,24 +55,9 @@ input[type=text]::placeholder {
     text-decoration: none;
 }
 
-.Footer-column {
-    width: 50%;
-}
-
 @media screen and (max-width: 767px) {
     .Feature-block {
         width: 70%;
-    }
-
-    .Footer-column {
-        width: 50% !important;
-        padding-bottom: 25px !important;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .Footer-column {
-        width: 33%;
     }
 }
 

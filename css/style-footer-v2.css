@@ -1,0 +1,20 @@
+.Footer-delimeter {
+    width: 100%;
+    border: 1px solid var(--Primary);
+}
+
+footer {
+    padding: 1.5rem !important;
+}
+
+@media screen and (max-width: 767px) {
+    .Footer-column {
+        padding-bottom: 25px !important;
+    }
+}
+
+@media screen and (min-width: 576px) {
+ footer {
+    padding: 3rem !important;
+ }
+} 
