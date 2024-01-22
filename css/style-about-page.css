@@ -1,0 +1,55 @@
+.Email-sign-up {
+    background-image: url(../images/pictures/Orange-brown-back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.page-header {
+    margin-top: 80px;
+}
+
+.my-button {
+    border: none;
+    border-radius:0% !important;
+    min-height: 56px !important;
+}
+
+@media screen and (max-width: 767px) {
+    .Feature-block {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .page-header-content {
+        width: 50% !important;
+
+    }
+
+    .join-us-picture, .join-us-content {
+        width: 50% !important;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .page-header {
+        margin-top: 150px;
+    }
+
+    .Text-content-v2, .Text-input-v2 {
+        width: 44% !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .Feature-block {
+        width: 46%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .Feature-block {
+        width: 22%;
+    }
+}

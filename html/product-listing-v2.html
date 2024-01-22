@@ -163,12 +163,26 @@
         </div>
     </div>
 
-    <!-- <div class="m-5  text-start d-flex flex-column gap-5">
+    <!-- Здесь нужно доделать слайдер правильно в медиа запросах и размеры фоток -->
+    <div class="m-5 text-start d-flex flex-column gap-5">
         <div class="Headline-2 is-Text-dark-primary">
-            You might also like
+            Our popular products
         </div>
-        <div class="d-flex justify-content-between flex-wrap flex-lg-nowrap align-self-center w-100">
-            <a class="d-flex flex-column Product-card" href="#">
+        <div class="d-flex justify-content-between flex-lg-nowrap align-self-center w-100">
+            <a class="d-flex flex-column Product-card-big" href="#">
+                <div class="Product-card-child" style="height: 85%;">
+                    <img class="img-fluid" src="../images/pictures/Large sofa.png" alt="">
+                </div>
+                <div class="Product-card-child  pt-2">
+                    <div class="Headline-4 is-Text-dark-primary">
+                        The Poplar suede sofa
+                    </div>
+                    <div class="Text-body-large is-Text-dark-primary">
+                        £980
+                    </div>
+                </div>
+            </a>
+            <a class="d-flex flex-column Product-card " href="#">
                 <div class="Product-card-child" style="height: 85%;">
                     <img class="img-fluid" src="../images/pictures/The Dandy chair.png" alt="">
                 </div>
@@ -183,99 +197,22 @@
             </a>
             <a class="d-flex flex-column Product-card" href="#">
                 <div class="Product-card-child" style="height: 85%;">
-                    <img class="img-fluid" src="../images/pictures/Rustic Vase Set.png" alt="">
+                    <img class="img-fluid" src="../images/pictures/The Dandy chair bw.png" alt="">
                 </div>
                 <div class="Product-card-child pt-2">
                     <div class="Headline-4 is-Text-dark-primary">
-                        Rustic Vase Set
+                        The Dandy chair
                     </div>
                     <div class="Text-body-large is-Text-dark-primary">
-                        £155
-                    </div>
-                </div>
-            </a>
-            <a class="d-flex flex-column Product-card" href="#">
-                <div class="Product-card-child" style="height: 85%;">
-                    <img class="img-fluid" src="../images/pictures/The Silky Vase.png" alt="">
-                </div>
-                <div class="Product-card-child pt-2">
-                    <div class="Headline-4 is-Text-dark-primary">
-                        The Silky Vase
-                    </div>
-                    <div class="Text-body-large is-Text-dark-primary">
-                        £125
-                    </div>
-                </div>
-            </a>
-            <a class="d-flex flex-column Product-card" href="#">
-                <div class="Product-card-child" style="height: 85%;">
-                    <img class="img-fluid" src="../images/pictures/The Lucy Lamp.png" alt="">
-                </div>
-                <div class="Product-card-child pt-2">
-                    <div class="Headline-4 is-Text-dark-primary">
-                        The Lucy Lamp
-                    </div>
-                    <div class="Text-body-large is-Text-dark-primary">
-                        £399
+                        £250
                     </div>
                 </div>
             </a>
         </div>
-        <a class="btn Text-body-medium collection-button-2 is-Light-gray 
-        d-flex justify-content-center align-items-center
-        is-Text-dark-primary align-self-center" href="#" role="button">View collection</a>
-    </div> -->
-
-    <!-- Здесь нужно доделать слайдер правильно в медиа запросах -->
-  <div class="m-5 text-start d-flex flex-column gap-5">
-    <div class="Headline-2 is-Text-dark-primary">
-      Our popular products
-    </div>
-    <div class="d-flex justify-content-between flex-lg-nowrap align-self-center w-100">
-      <a class="d-flex flex-column Product-card-big" href="#">
-        <div class="Product-card-child" style="height: 85%;">
-          <img class="img-fluid" src="../images/pictures/Large sofa.png" alt="">
-        </div>
-        <div class="Product-card-child  pt-2">
-          <div class="Headline-4 is-Text-dark-primary">
-            The Poplar suede sofa
-          </div>
-          <div class="Text-body-large is-Text-dark-primary">
-            £980
-          </div>
-        </div>
-      </a>
-      <a class="d-flex flex-column Product-card " href="#">
-        <div class="Product-card-child" style="height: 85%;">
-          <img class="img-fluid" src="../images/pictures/The Dandy chair.png" alt="">
-        </div>
-        <div class="Product-card-child pt-2">
-          <div class="Headline-4 is-Text-dark-primary">
-            The Dandy chair
-          </div>
-          <div class="Text-body-large is-Text-dark-primary">
-            £250
-          </div>
-        </div>
-      </a>
-      <a class="d-flex flex-column Product-card" href="#">
-        <div class="Product-card-child" style="height: 85%;">
-          <img class="img-fluid" src="../images/pictures/The Dandy chair bw.png" alt="">
-        </div>
-        <div class="Product-card-child pt-2">
-          <div class="Headline-4 is-Text-dark-primary">
-            The Dandy chair
-          </div>
-          <div class="Text-body-large is-Text-dark-primary">
-            £250
-          </div>
-        </div>
-      </a>
-    </div>
-    <a class="btn Text-body-medium collection-button-2 is-Light-gray  
+        <a class="btn Text-body-medium collection-button-2 is-Light-gray  
     d-flex justify-content-center align-items-center
     is-Text-dark-primary align-self-center" href="#" role="button">View collection</a>
-  </div>
+    </div>
 
     <div class="m-5 text-center d-flex flex-column gap-5">
         <div class="Headline-3 is-Text-dark-primary">
@@ -331,20 +268,25 @@
         </div>
     </div>
 
-    <div class="m-5 p-4 text-center d-flex flex-column is-Light-gray gap-5 align-items-center">
-        <div class="w-100 d-flex flex-column align-items-center Text-content">
-            <div class="Headline-1 is-Text-dark-primary">
-                Join the club and get the benefits
-            </div>
-            <div class="Text-body-medium is-Text-dark-primary">
-                Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more
-            </div>
+    <div class="d-flex flex-column flex-md-row">
+        <div class="d-flex justify-content-center w-100 join-us-picture">
+            <img class="img-fluid" src="../images/pictures/Join-club-back.png" alt="">
         </div>
-        <div class="input-group mb-3 Text-input">
-            <input type="text" class="form-control is-Light-gray" placeholder="your@email.com"
-                aria-label="your@email.com" aria-describedby="button-addon2" style="border-radius:0% !important;">
-            <button class="btn btn-outline-secondary is-Dark-primary is-Text-white
-             Text-body-medium px-4 my-button" type="button" id="button-addon2">Sign up</button>
+        <div class="p-4 text-start d-flex flex-column is-Light-gray gap-5 align-items-start join-us-content">
+            <div class="w-100 d-flex flex-column align-items-start Text-content">
+                <div class="Headline-2 is-Text-dark-primary">
+                    Join the club and get the benefits
+                </div>
+                <div class="Text-body-medium is-Text-dark-primary">
+                    Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more
+                </div>
+            </div>
+            <div class="input-group mb-3 Text-input">
+                <input type="text" class="form-control is-Light-gray" placeholder="your@email.com"
+                    aria-label="your@email.com" aria-describedby="button-addon2" style="border-radius:0% !important;">
+                <button class="btn btn-outline-secondary is-Dark-primary is-Text-white
+                 Text-body-medium px-4 my-button" type="button" id="button-addon2">Sign up</button>
+            </div>
         </div>
     </div>
 

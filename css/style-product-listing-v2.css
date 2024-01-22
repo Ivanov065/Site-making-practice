@@ -5,7 +5,7 @@
 }
 
 
-.Product-card {
+.Product-card, .Product-card-big {
     text-decoration: none;
     margin-bottom: 3% !important;
 }
@@ -14,10 +14,16 @@
     width: 22%;
 }
 
-.Product-card:has(.Product-card-child:hover){
+.Product-card-big {
+    width: 49%;
+}
+
+.Product-card:has(.Product-card-child:hover), .Product-card-big:has(.Product-card-child:hover)
+{
     transition: 0.15s;
     transform: scale(1.05);
 }
+
 
 .my-button {
     border: none;
@@ -46,6 +52,14 @@
         gap: 3rem;
         width: auto !important;
     }
+
+    .join-us-picture, .join-us-content {
+        width: 50% !important;
+    }
+
+    .Text-content {
+        margin-bottom: auto;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
@@ -68,6 +82,10 @@
 @media screen and (max-width: 991px) {
     .Product-card {
         width: 48%;
+    }
+
+    .Product-card-big {
+        width: 80%;
     }
 }
 
