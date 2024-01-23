@@ -6,13 +6,18 @@
 }
 
 .page-header {
-    margin-top: 80px;
+    margin-top: 80px !important;
 }
 
-.my-button{
+.my-button, .my-button-opaque {
     border: none;
     border-radius:0% !important;
     min-height: 56px !important;
+}
+
+.Text-input {
+    border: none;
+    height: 46px;
 }
 
 @media screen and (max-width: 767px) {
@@ -23,8 +28,13 @@
 
 @media screen and (min-width: 768px){
     .page-header-content {
-        width: 50% !important;
+        width: 70% !important;
 
+    }
+
+    .page-header {
+        padding: 0 3rem !important;
+        padding-top: 3rem !important;
     }
 
     .join-us-picture, .join-us-content {
@@ -34,11 +44,15 @@
 
 @media screen and (min-width: 992px){
     .page-header {
-        margin-top: 150px;
+        margin-top: 150px !important;
     }
 
-    .Text-content-v2, .Text-input-v2 {
-        width: 44% !important;
+    .Text-content {
+        width: 60% !important;
+    }
+
+    .Text-input {
+        width: 472px !important;
     }
 }
 
@@ -51,5 +65,24 @@
 @media screen and (min-width: 1200px) {
     .Feature-block {
         width: 22%;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    .join-us-content {
+        padding: 3rem !important;
+    }
+
+    .join-us-picture, .join-us-content {
+        width: 50% !important;
+    }
+
+    .join-us-content-title {
+        font-size: 32px;
+    }
+
+    .join-us-content-subtitle {
+        font-size: 18px;
     }
 }
