@@ -6,7 +6,7 @@
 }
 
 .page-header {
-    margin-top: 80px;
+    margin-top: 150px;
 }
 
 .my-button{
@@ -33,8 +33,9 @@
 }
 
 @media screen and (min-width: 992px){
-    .page-header {
-        margin-top: 150px;
+    .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
     }
 
     .Text-content-v2, .Text-input-v2 {

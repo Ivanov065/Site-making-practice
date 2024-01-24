@@ -22,57 +22,69 @@
     src: url(../fonts/Satoshi-Variable.ttf);
 }
 
+.is-Border-gray {
+    border: 1px solid var(--Border-gray) !important;
+}
+
+.is-Border-light-gray {
+    border: 1px solid var(--Light-gray) !important;
+}
+
 .is-Dark-primary {
-    background-color: var(--Dark-primary);
+    background-color: var(--Dark-primary) !important;
 }
 
 .is-Primary {
-    background-color: var(--Primary);
+    background-color: var(--Primary) !important;
 }
 
 .is-Light-gray {
-    background-color: var(--Light-gray);
+    background-color: var(--Light-gray) !important;
 }
 
 .is-White {
-    background-color: var(--White);
+    background-color: var(--White) !important;
 }
 
 .is-Text-dark-primary {
-    color: var(--Dark-primary);
+    color: var(--Dark-primary) !important;
 }
 
 .is-Text-primary {
-    color: var(--Primary);
+    color: var(--Primary) !important;
 }
 
 .is-Text-light-gray {
-    color: var(--Light-gray);
+    color: var(--Light-gray) !important;
 }
 
 .is-Text-white {
-    color: var(--White);
+    color: var(--White) !important;
 }
 
 .is-Text-near-black {
-    color: var(--Near-black);
+    color: var(--Near-black) !important;
 }
 
 .is-Text-light-primary {
-    color: var(--Light-primary);
+    color: var(--Light-primary) !important;
 }
 
 .is-Text-border-dark {
-    color: var(--Border-dark);
+    color: var(--Border-dark) !important;
+}
+
+.is-Text-border-gray {
+    color: var(--Border-gray) !important;
 }
 
 .is-Main-title {
-    color: var(--Avion-title);
+    color: var(--Avion-title) !important;
     text-decoration: none;
 }
 
 .is-Navbar-text {
-    color: var(--Navbar-text);
+    color: var(--Navbar-text) !important;
     text-decoration: none;
 }
 

@@ -1,0 +1,101 @@
+.all-products-header {
+    margin-top: 80px !important;
+    height: 146px !important;
+    background-image: url(../images/pictures/all-products-header-small.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    border: 1px solid rgba(220, 220, 220, 1);
+    border-radius: 2px;
+}
+
+.container input:checked~.checkmark {
+    background-image: url(../images/icons/Checkbox-checkmark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.Product-cards {
+    width: 100% !important;
+    margin: 1.5rem 0 !important;
+}
+
+.Product-card {
+    width: 41% !important;
+    text-decoration: none;
+}
+
+.Product-card:has(.Product-card-child:hover)
+{
+    transition: 0.15s;
+    transform: scale(1.05);
+}
+
+.my-button, .my-button-opaque {
+    border: none;
+    border-radius:0% !important;
+    min-height: 56px !important;
+}
+
+@media screen and (min-width: 576px) {
+    .all-products-header {
+        height: 209px !important;
+        background-image: url(../images/pictures/all-products-header-big.png);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Product-card {
+        max-width: 28.8%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .Product-card {
+        max-width: 21%;
+    }
+
+    .all-products-header {
+        margin-top: 150px !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+
+    .Product-card {
+        max-width: 22%;
+    }
+}
+
+
+
+

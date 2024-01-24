@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style-guide.css">
+    <link rel="stylesheet" href="../css/style-shoping-basket-v2.css">
+    <link rel="stylesheet" href="../css/style-navbar-footer-version-1.css">
+</head>
+
+<body>
+    <nav class="fixed-top p-4 d-flex flex-column is-White">
+        <div class="d-flex flex-wrap justify-content-lg-between">
+            <a class="d-flex align-items-center order-1 order-lg-0" href="#">
+                <img src="../images/icons/Search.svg" width="16" height="16">
+            </a>
+            <a class="Headline-3 order-0 flex-grow-1 flex-lg-grow-0 order-lg-1 is-Main-title" href="#">
+                Avion
+            </a>
+            <div class="d-none d-lg-flex gap-2 order-3">
+                <a class="navbar-item " href="#">
+                    <img src="../images/icons/Shopping--cart.svg" width="16" height="16">
+                </a>
+                <a class="navbar-item is-flex is-align-items-center" href="#">
+                    <img src="../images/icons/User--avatar.svg" width="16" height="16">
+                </a>
+            </div>
+
+            <a class="navbar-toggler ms-4 order-4 d-flex d-lg-none align-items-center" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <img src="../images/icons/Menu.svg" width="16" height="16">
+            </a>
+
+
+            <div class="collapse navbar-collapse d-lg-none order-5" id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link is-Navbar-text" href="#">Plant pots</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link is-Navbar-text" href="#">Ceramics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link is-Navbar-text" href="#">Tables</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link is-Navbar-text" href="#">Chairs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link is-Navbar-text" href="#">Crockery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link is-Navbar-text" href="#">Tableware</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link is-Navbar-text" href="#">Cultery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-item " href="#">
+                            <img src="../images/icons/Shopping--cart.svg" width="16" height="16">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-item is-flex is-align-items-center" href="#">
+                            <img src="../images/icons/User--avatar.svg" width="16" height="16">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="d-none d-lg-flex divider w-100 my-3" style="border: 1px solid rgba(0, 0, 0, 0.1);"></div>
+        <div class="d-none d-lg-flex justify-content-center">
+            <div class="row gap-3">
+                <a class="col nav-link is-Navbar-text" style="white-space: nowrap" href="#">Plant pots</a>
+                <a class="col nav-link is-Navbar-text" href="#">Ceramics</a>
+                <a class="col nav-link is-Navbar-text" href="#">Tables</a>
+                <a class="col nav-link is-Navbar-text" href="#">Chairs</a>
+                <a class="col nav-link is-Navbar-text" href="#">Crockery</a>
+                <a class="col nav-link is-Navbar-text" href="#">Tableware</a>
+                <a class="col nav-link is-Navbar-text" href="#">Cultery</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mx-4 mx-md-5 m-5 main-cart-section">
+        <div class="Headline-3 is-Text-dark-primary pb-5 shoping-cart-title">
+            Your shopping cart
+        </div>
+        <div class="cart-table w-100">
+            <div class="d-none d-md-flex w-100 pb-3">
+                <div class="Headline-6 is-Text-dark-primary" style="width: 50%;">Product</div>
+                <div class="Headline-6 is-Text-dark-primary" style="width: 40%;">Quantity</div>
+                <div class="Headline-6 is-Text-dark-primary" style="width: 10%;">Total</div>
+            </div>
+            <div class="d-none d-md-block is-Border-light-gray w-100"></div>
+
+            <div class="d-flex flex-column py-3 gap-3">
+                <div class="d-flex justify-content-center justify-content-md-start">
+                    <div class="cart-card-borderer">
+                        <div class="d-flex cart-card">
+                            <div class="cart-image">
+                                <img class="img-fluid" src="../images/pictures/Graystone-vase-mini.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column is-Text-dark-primary cart-content">
+                                <div class="Headline-5 is-Text-dark-primary cart-content-title">
+                                    Graystone vase
+                                </div>
+                                <div class="Text-body-small">
+                                    A timeless ceramic vase with
+                                    a tri color grey glaze.
+                                </div>
+                                <div class="Text-body-medium">
+                                    £85
+                                </div>
+                                <div
+                                    class="d-md-none d-flex justify-content-between align-self-center Text-body-medium stepper">
+                                    <div class="is-Text-border-gray">-</div>
+                                    <div class="is-Text-dark-primary">1</div>
+                                    <div class="is-Text-border-gray">+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-block" style="width: 40%;">
+                        <div class="d-flex justify-content-between align-self-center Text-body-medium stepper">
+                            <div class="is-Text-border-gray">-</div>
+                            <div class="is-Text-dark-primary">1</div>
+                            <div class="is-Text-border-gray">+</div>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-block Text-body-large is-Text-dark-primary">
+                        £85
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center justify-content-md-start">
+                    <div class="cart-card-borderer">
+                        <div class="d-flex cart-card">
+                            <div class="cart-image">
+                                <img class="img-fluid" src="../images/pictures/Flower-mini.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column is-Text-dark-primary cart-content">
+                                <div class="Headline-4">
+                                    Basic white vase
+                                </div>
+                                <div class="Text-body-small">
+                                    Beautiful and simple this is
+                                    one for the classics
+                                </div>
+                                <div class="Text-body-medium">
+                                    £85
+                                </div>
+                                <div
+                                    class="d-md-none d-flex justify-content-between align-self-center Text-body-medium stepper">
+                                    <div class="is-Text-border-gray">-</div>
+                                    <div class="is-Text-dark-primary">1</div>
+                                    <div class="is-Text-border-gray">+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-block" style="width: 40%;">
+                        <div class="d-flex justify-content-between align-self-center Text-body-medium stepper">
+                            <div class="is-Text-border-gray">-</div>
+                            <div class="is-Text-dark-primary">1</div>
+                            <div class="is-Text-border-gray">+</div>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-block Text-body-large is-Text-dark-primary">
+                        £85
+                    </div>
+                </div>
+            </div>
+
+            <div class="is-Border-light-gray w-100"></div>
+        </div>
+        <div class="d-none d-md-block Text-body-small is-Text-primary mt-3">
+            Taxes and shipping are calculated at checkout
+        </div>
+        <div class="d-flex flex-column align-items-end">
+            <div class="d-flex gap-3">
+                <div class="Headline-4 is-Text-primary">Subtotal</div>
+                <div class="Headline-3 is-Text-dark-primary">£210</div>
+            </div>
+            <div class="d-md-none Text-body-small is-Text-primary my-3">
+                Taxes and shipping are calculated at checkout
+            </div>
+            <button class="btn btn-outline-secondary is-Text-white is-Dark-primary
+            Text-body-medium px-4 w-100 my-button" type="button" id="button-addon2">Go to
+                checkout</button>
+        </div>
+    </div>
+
+    <footer class="p-5 d-flex flex-column is-Dark-primary">
+        <div class="d-flex justify-content-between flex-wrap flex-lg-nowrap">
+            <div class="d-flex flex-column Footer-column">
+                <div class="Headline-5 is-Text-white">
+                    Menu
+                </div>
+                <a class="Text-body-small is-Text-white" href="#">
+                    New arrivals
+                </a>
+                <a class="Text-body-small is-Text-white" href="#">
+                    Best sellers
+                </a>
+                <a class="Text-body-small is-Text-white" href="#">
+                    Recently viewed
+                </a>
+                <a class="Text-body-small is-Text-white" href="#">
+                    Popular this week
+                </a>
+                <a class="Text-body-small is-Text-white" href="#">
+                    All products
+                </a>
+            </div>
+            <div class="d-flex flex-column Footer-column">
+                <div class="Headline-5 is-Text-white">
+                    Categories
+                </div>
+                <a class="Text-body-small is-Text-white" href="#">
+                    Crockery
+                </a>
+                <a class="Text-body-small is-Text-white" href="#">
+                    Furniture
+                </a>
+                <a class="Text-body-small is-Text-white" href="#">
+                    Homeware
+                </a>
+                <a class="Text-body-small is-Text-white" href="#">
+                    Plant pots
+                </a>
+                <a class="Text-body-small is-Text-white" href="#">
+                    Chairs
+                </a>
+                <a class="Text-body-small is-Text-white" href="#">
+                    Crockery
+                </a>
+            </div>
+            <div class="d-flex flex-column Footer-column">
+                <div class="Headline-5 is-Text-white">
+                    Our company
+                </div>
+                <a class="Text-body-small is-Text-white" href="#">
+                    About us
+                </a>
+                <a class="Text-body-small is-Text-white" href="#">
+                    Vacancies
+                </a>
+                <a class="Text-body-small is-Text-white" href="#">
+                    Contact us
+                </a>
+                <a class="Text-body-small is-Text-white" href="#">
+                    Privacy
+                </a>
+                <a class="Text-body-small is-Text-white" href="#">
+                    Returns policy
+                </a>
+            </div>
+            <div class="Footer-input">
+                <div class="Headline-5 is-Text-white mb-2">
+                    Join our mailing list
+                </div>
+                <div class="input-group mb-3 Footer-text-input">
+                    <input type="text" class="form-control Footer-input-field" placeholder="your@email.com"
+                        aria-label="your@email.com" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary is-White is-Text-dark-primary" type="button"
+                        id="button-addon2" style="border-radius:0% !important;">Sign up</button>
+                </div>
+            </div>
+        </div>
+        <div class="Footer-delimeter my-4"></div>
+        <div class="d-flex justify-content-center justify-content-md-between w-100">
+            <div class="Text-body-small is-Text-white">
+                Copyright 2022 Avion LTD
+            </div>
+            <div class="d-none d-md-flex gap-4">
+                <a class="" href="#">
+                    <img src="../images/icons/Logo--linkedin.svg" width="24" height="24">
+                </a>
+                <a class="" href="#">
+                    <img src="../images/icons/Logo--facebook.svg" width="24" height="24">
+                </a>
+                <a class="" href="#">
+                    <img src="../images/icons/Logo--instagram.svg" width="24" height="24">
+                </a>
+                <a class="" href="#">
+                    <img src="../images/icons/Logo--skype.svg" width="24" height="24">
+                </a>
+                <a class="" href="#">
+                    <img src="../images/icons/Logo--twitter.svg" width="24" height="24">
+                </a>
+                <a class="" href="#">
+                    <img src="../images/icons/Logo--pinterest.svg" width="24" height="24">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -13,9 +13,8 @@
 </head>
 
 <body>
-    <!-- Переделать этот навбар как надо по шаблону -->
     <nav class="fixed-top d-flex flex-column is-White">
-        <div class="p-2 upper-poster d-flex  is-Dark-primary w-100 gap-2">
+        <div class="p-2 mb-2 upper-poster d-flex  is-Dark-primary w-100 gap-2">
             <div class="d-flex w-100 flex-grow-1 justify-content-center gap-2">
                 <div class="d-flex align-items-center justify-content-center delivery-white-icon">
                     <img class="img-fluid" src="../images/icons/Delivery-White.svg" alt="" width="16px" height="16px">
@@ -29,20 +28,37 @@
                 <img class="img-fluid" src="../images/icons/Close-White.svg" alt="">
             </a>
         </div>
-        <div class="d-flex flex-wrap justify-content-lg-between ">
-            <a class="d-flex align-items-center order-1 order-lg-0" href="#">
-                <img src="../images/icons/Search.svg" width="16" height="16">
-            </a>
-            <a class="Headline-3 order-0 flex-grow-1 flex-lg-grow-0 order-lg-1 is-Main-title" href="#">
+        <div class="px-4 d-flex flex-wrap justify-content-lg-between ">
+            <a class="Headline-3 flex-grow-1 flex-lg-grow-0 is-Main-title" href="#">
                 Avion
             </a>
-            <div class="d-none d-lg-flex gap-2 order-3">
-                <a class="navbar-item " href="#">
-                    <img src="../images/icons/Shopping--cart.svg" width="16" height="16">
-                </a>
-                <a class="navbar-item is-flex is-align-items-center" href="#">
-                    <img src="../images/icons/User--avatar.svg" width="16" height="16">
-                </a>
+            <div class="collapse navbar-collapse justify-content-lg-end" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mb-2 mb-lg-0 flex-lg-row align-items-lg-center justify-content-lg-end gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link is-Navbar-text" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link is-Navbar-text" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link is-Navbar-text" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="navbar-item " href="#">
+                            <img src="../images/icons/Search.svg" width="16" height="16">
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="navbar-item " href="#">
+                            <img src="../images/icons/Shopping--cart.svg" width="16" height="16">
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="navbar-item is-flex is-align-items-center" href="#">
+                            <img src="../images/icons/User--avatar.svg" width="16" height="16">
+                        </a>
+                    </li>
+                </ul>
             </div>
 
             <a class="navbar-toggler ms-4 order-4 d-flex d-lg-none align-items-center" type="button"
@@ -50,48 +66,9 @@
                 aria-expanded="false" aria-label="Toggle navigation">
                 <img src="../images/icons/Menu.svg" width="16" height="16">
             </a>
-
-
-            <div class="collapse navbar-collapse d-lg-none order-5" id="navbarTogglerDemo01">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link is-Navbar-text" href="#">Plant pots</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link is-Navbar-text" href="#">Ceramics</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link is-Navbar-text" href="#">Tables</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link is-Navbar-text" href="#">Chairs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link is-Navbar-text" href="#">Crockery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link is-Navbar-text" href="#">Tableware</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link is-Navbar-text" href="#">Cultery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="navbar-item " href="#">
-                            <img src="../images/icons/Shopping--cart.svg" width="16" height="16">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="navbar-item is-flex is-align-items-center" href="#">
-                            <img src="../images/icons/User--avatar.svg" width="16" height="16">
-                        </a>
-                    </li>
-                </ul>
-            </div>
         </div>
-
-        <div class="d-none d-lg-flex divider w-100 my-3" style="border: 1px solid rgba(0, 0, 0, 0.1);"></div>
-        <div class="d-none d-lg-flex justify-content-center">
-            <div class="row gap-3">
+        <div class="d-flex justify-content-center pt-3">
+            <div class="row gap-3 flex-nowrap overflow-hidden">
                 <a class="col nav-link is-Navbar-text" style="white-space: nowrap" href="#">Plant pots</a>
                 <a class="col nav-link is-Navbar-text" href="#">Ceramics</a>
                 <a class="col nav-link is-Navbar-text" href="#">Tables</a>
