@@ -7,7 +7,6 @@
     background-size: cover;
 }
 
-/* Customize the label (the container) */
 .container {
     position: relative;
     cursor: pointer;
@@ -17,7 +16,6 @@
     user-select: none;
 }
 
-/* Hide the browser's default checkbox */
 .container input {
     position: absolute;
     opacity: 0;
@@ -26,7 +24,6 @@
     width: 0;
 }
 
-/* Create a custom checkbox */
 .checkmark {
     position: absolute;
     top: 4px;
@@ -38,7 +35,6 @@
     border-radius: 2px;
 }
 
-/* When the checkbox is checked, add a blue background */
 .container input:checked~.checkmark {
     background-image: url(../images/icons/Checkbox-checkmark.svg);
     background-position: center;
@@ -120,10 +116,4 @@
     .Product-card {
         max-width: 28.8%;
     }
-}
-
-@media screen and (min-width: 576px) {
-    /* .Product-card {
-        max-width: 28%;
-    } */
 }
