@@ -1,0 +1,45 @@
+footer * {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgba(114, 110, 141, 1) !important;
+}
+
+nav a:hover {
+    color: rgba(42, 37, 75, 1) !important;
+}
+
+.navbar-icon-hover:hover {
+    transform: scale(0.9);
+    background-color: rgba(202, 198, 218, 1);
+    border-radius: 10px;
+    transition: .35s;
+}
+
+.footer-logo-icon:hover {
+    transform: scale(0.9);
+    border-radius: 8px;
+    transition: .35s;
+}
+
+.Footer-delimeter {
+    width: 100%;
+    border: 1px solid var(--Primary);
+}
+
+footer {
+    padding: 1.5rem !important;
+}
+
+@media screen and (max-width: 767px) {
+    .Footer-column {
+        padding-bottom: 25px !important;
+    }
+}
+
+@media screen and (min-width: 576px) {
+ footer {
+    padding: 3rem !important;
+ }
+} 
